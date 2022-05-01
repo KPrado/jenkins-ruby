@@ -1,5 +1,4 @@
 pipeline {
-    // agent docker com uma imagem ruby
     agent {
         docker {
             image 'ruby'
@@ -9,7 +8,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'Compílar e resolver dependencias'
+                echo 'Compilar e resolver dependencias'
                 sh 'bundle install'
             }
         }
