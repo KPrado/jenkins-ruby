@@ -2,10 +2,14 @@
 automação web ruby com jenkins
 
 
-## Executando
+## Executando no servidor de CI
+-
+gem install bundler
+-
+-
+bundle install
+-
+-
+bundle exec cucumber -p ci
+-
 
-# gem install bundler
-
-# bundle install
-
-# cucumber -t @tag
