@@ -4,8 +4,8 @@ automação web ruby com jenkins
 
 ## Executando
 
-#gem install bundler
+# gem install bundler
 
-#bundle install
+# bundle install
 
-#cucumber -t @tag
+# cucumber -t @tag
